@@ -1,0 +1,160 @@
+body{
+    background-color:darkblue;
+}
+.mybutton{
+  margin-top: 25px;
+}
+h1{
+    font-size: 35px;
+    color: rgb(203, 203, 255);}  
+#result,#turn{
+  margin-top: 10px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+} 
+#icon_select{
+  margin-top: 30px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}    
+#tictac{
+    margin-top: 30px;
+
+}    
+.col{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35%;
+    box-shadow: rgb(0, 6, 31) 0 1px 3px 0;
+    display: inline-flex;
+    font-size: 70px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.col:hover,
+.col:focus {
+  border-color: rgba(4, 0, 250, 0.836);
+  box-shadow: rgba(255, 255, 255, 0.911) 0 4px 20px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.col:hover {
+  transform: translateY(-3px);
+}
+.col i{
+  position: fixed;
+}
+i#x,#o{
+  font-size: 50px;
+}
+i#o:hover,i#x:hover{
+  transform: translateY(-4px);
+}
+button{
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgb(174, 189, 255) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-top: 25px;
+}
+
+button:hover,
+button:focus {
+  border-color: rgba(85, 82, 255, 0.836);
+  box-shadow: rgba(195, 206, 255, 0.911) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #F0F0F1;
+  border-color: rgb(0, 0, 0);
+  box-shadow: rgba(5, 1, 255, 0.904) 0 2px 4px;
+  color: rgba(255, 255, 255, 0.993);
+  transform: translateY(0);
+}
+button#play_i{
+  margin-left: 10px;
+  position: relative;
+  font-size: 24px;
+  color: #00008b;}
+input {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(235, 229, 248, 0.932) 0 2px 4px,rgba(201, 189, 226, 0.781) 0 7px 13px -3px,rgb(255, 255, 255) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  /* -webkit-user-select: none; */
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+input:focus {
+  box-shadow: #fefeff 0 0 0 1.5px inset,rgba(255, 255, 255, 0.87) -1px 2px 4px,rgba(242, 235, 255, 0.918) 0 7px 13px -3px,rgba(255, 255, 255, 0.93) 0 -3px 0 inset;
+}
+input:hover {
+  box-shadow: #fefeff 0 0 0 1.5px inset,rgba(255, 255, 255, 0.87) -1px 2px 4px,rgba(242, 235, 255, 0.918) 0 7px 13px -3px,rgba(255, 255, 255, 0.93) 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+input:active {
+  box-shadow: #fefeff 0 0 0 1.5px inset,rgba(255, 255, 255, 0.87) -1px 2px 4px,rgba(242, 235, 255, 0.918) 0 7px 13px -3px,rgba(255, 255, 255, 0.93) 0 -3px 0 inset;
+  transform: translateY(2px);
+}
+input#reset{
+  margin-top: 10px;
+}
+button#Play{
+  margin-top: -47px;
+  margin-left: 170px;
+  position: absolute;
+  width: 70px;
+  height: 49px;
+  font-size: 25px;
+}
